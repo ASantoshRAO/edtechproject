@@ -25,7 +25,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin:"https://edtechproject-omega.vercel.app",
+    origin:"https://edtechproject-omega.vercel.app/",
     credentials: true,
     maxAge: 14400,
   })
